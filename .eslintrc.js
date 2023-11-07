@@ -32,5 +32,6 @@ module.exports = {
     'react/jsx-one-expression-per-line': 0,
     'no-nested-ternary': 0,
     'react/prop-types': 0,
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
 };
