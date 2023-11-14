@@ -33,5 +33,11 @@ module.exports = {
     'no-nested-ternary': 0,
     'react/prop-types': 0,
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
   },
 };
